@@ -1,0 +1,104 @@
+@import "./variable.scss";
+
+body {
+  margin: 0;
+}
+
+.backgroundIcon {
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  background-color: $sky_2;
+
+}
+
+.action {
+  position: relative;
+
+  margin-right: 20px;
+  .count {
+    background-color: $yellow;
+    position: absolute;
+    top: -2px;
+    color: $white;
+    border-radius: 50%;
+    padding: 5px;
+    height: 23px;
+    width: 25px;
+    line-height: 11px;
+    text-align: center;
+    left: -11px;
+  }
+}
+
+.menu {
+  .box {
+    font-size: 20px;
+    background-color: $gray_2;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: $gray_1;
+    padding-top: 9px;
+    margin-right: 11px;
+    height: fit-content;
+  }
+  .title_price {
+    align-self: flex-start;
+  }
+  .leftSide {
+    display: flex;
+  }
+  .title {
+    display: block;
+    color: $blue;
+  }
+  .price {
+    color: $gray_1;
+  }
+  .delete {
+    color: $red;
+  }
+  .status {
+    padding: 0px 4px;
+    border-radius: 3px;
+    .dot {
+      width: 10px;
+      height: 10px;
+      line-height: 20px;
+      display: inline-block;
+
+      border-radius: 50%;
+    }
+  }
+}
+
+.moreInfo {
+  font-size: 10px;
+  .gift {
+    background-color: $yellow_3;
+    padding: 4px;
+    margin-bottom: 5px;
+  }
+  span {
+    margin-left: 6px;
+  }
+  .infoIcon {
+    background-color: $sky;
+    color: $white;
+    border-radius: 25px;
+    padding: 2px;
+  }
+  .info {
+    background-color: $sky_2;
+    padding: 4px;
+  }
+}
+
+a{
+  color: $white;
+}
+.container {
+  margin: 0 50px;
+}
